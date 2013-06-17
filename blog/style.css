@@ -1,0 +1,13 @@
+/* stylesheet for blog site */
+body {
+	font-family: arial;
+	font-size: 16px
+	color: black;
+	background-color: white;
+
+}
+
+h2{font-family: Impact; color:black; font-size: 24px; font-style: bold}
+a{color:black;text-decoration: none;}
+a:hover{color:blue;}
+a:visited{color: gray}
