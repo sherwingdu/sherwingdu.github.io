@@ -4,24 +4,22 @@ body {
 	font-size: 14px;
 	color: black;
 	background-color: white;
-	
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 #shopname
 {font-family: Monotype Corsiva; color: purple; font-size: 36px
 }
 
-.description 
-{
-	h2 	{font-family: Arial; color:#87421F; 
+.description h2 {font-family: Arial; color:#87421F; 
 	font-size:
-	18px;
-		}
-}
+	18px;}
+
 
 a:link{color:black;text-decoration:none;}
 a:hover{color:blue;}
 a:visited{color: gray}
 
-
+#tagline {border: 1px solid black; padding: 10px;}
 
