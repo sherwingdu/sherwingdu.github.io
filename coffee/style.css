@@ -21,5 +21,67 @@ a:link{color:black;text-decoration:none;}
 a:hover{color:blue;}
 a:visited{color: gray}
 
-#tagline {border: 1px solid black; padding: 10px;}
+#tagline {
+	position: relative;
+	width: 350px;
+	margin: auto;
+	margin-bottom: 75px;
+}
 
+header{
+	background-image: url(images/beans.jpg);
+	width: 100%;
+}
+
+#logo {
+	margin:auto;
+	width: 100px;
+}
+
+ul{
+	list-style-type: none;
+	width: 750px;
+	margin-left: auto;
+	position: relative;
+
+}
+
+li {
+	display: inline-block;
+	height: 30px;
+	position: relative;
+	bottom: 15px;
+	color: red;
+
+}
+
+nav {
+	background-color: black;
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Georgia;
+}
+
+#organic {
+	width: 450px;
+	margin-left: 200px;
+	float: left;
+	position: absolute;
+	text-align: center;
+	
+}
+
+#coffeebar {
+	width: 450px;
+	margin-right: 200px;
+	float: right;
+	position: relative;
+	text-align: center;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
