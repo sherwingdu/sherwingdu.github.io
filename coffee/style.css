@@ -65,23 +65,24 @@ nav {
 }
 
 #organic {
-	width: 450px;
+	max-width: 450px;
 	margin-left: 200px;
 	float: left;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	
 }
 
 #coffeebar {
-	width: 450px;
+	max-width: 450px;
 	margin-right: 200px;
 	float: right;
-	position: relative;
+	/*position: relative;*/
 	text-align: center;
 }
 
 footer{
 	clear: both;
 	text-align: center;
+	padding-top: 40px;
 }
