@@ -85,10 +85,10 @@ header {
 
 nav {
 	float: right; 
-	display: block;
+	display: inline;
 	margin-bottom: 0;
-	margin-top: 90px;
-	margin-right: 110px;
+	margin-top: 6%;
+	margin-right: 6%;
 }
 
 
