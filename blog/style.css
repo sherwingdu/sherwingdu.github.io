@@ -83,6 +83,10 @@ header {
 	
 }
 
+.borderbottom {
+	clear:both;
+}
+
 nav {
 	float: right; 
 	display: inline;
