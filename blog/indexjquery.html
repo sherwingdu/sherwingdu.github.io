@@ -7,12 +7,18 @@
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link rel="stylesheet" media="(max-width: 675px)" href="small.css" />
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+	<script type="text/javascript" src="http://leandrovieira.com/projects/jquery/lightbox/js/jquery.lightbox-0.4.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://leandrovieira.com/projects/jquery/lightbox/css/jquery.lightbox-0.4.css" media="screen" />
+	<script src="script.js" type="text/javascript"></script>
+	
 	
 </head>
 
 <body>
 	<header id="topofpage">
 			<a href="index.html"><img src="images/blog-logo.png"></a>
+
 		
 			<nav>
 				<a href="about.html">about |</a>
@@ -45,6 +51,19 @@
 <p>
 DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! â€œNow fax quiz Jack! â€œ my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk.
 </P>
+
+	<div class="thumb">
+		<a class="lightbox" href="images/blog-logo.png">
+			
+			<img src="images/blog-logo.png">
+		</a>	
+	</div>
+	<script type="text/javascript">
+		$('div.thumb > img').on('click',function() {
+
+			$('div.lightboxcontainer').css('display','block');
+		})
+	</script> 
 
 <h5>Feb 21, 2013</h5>
 <h2 id="joltmywax">Jolt my wax bed</h2>

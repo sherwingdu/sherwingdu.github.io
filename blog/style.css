@@ -135,6 +135,7 @@ h5{
 	font-family:LeagueGothicRegular;
 	font-size: 14px;
 	margin-bottom: 0px;
+	clear:both;
 }
 
 p{
@@ -143,7 +144,21 @@ p{
 
 }
 
+.lightboxcontainer {
+	display: none;
+	width: 400px;
+	margin-left: auto
+	margin-right: auto;
+	position: absolute;
+	top: 0;
+}
 
+.lightbox{
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
 
 
 	
